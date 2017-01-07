@@ -8,7 +8,11 @@ $baseDir = dirname($vendorDir);
 return array(
     'Vector\\' => array($baseDir . '/Vector'),
     'Utilities\\' => array($baseDir . '/Utilities'),
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
     'Matrix\\' => array($baseDir . '/Matrix'),
+    'Illuminate\\Support\\' => array($vendorDir . '/illuminate/support'),
+    'Illuminate\\Contracts\\' => array($vendorDir . '/illuminate/contracts'),
     'Distance\\' => array($baseDir . '/Distance'),
     'Classifiers\\KNN\\' => array($baseDir . '/Classifiers/KNN'),
     'Classifiers\\ANN\\' => array($baseDir . '/Classifiers/ANN'),
